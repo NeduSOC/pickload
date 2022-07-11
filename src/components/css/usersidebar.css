@@ -1,0 +1,50 @@
+.side-bar {
+  width: 20%;
+  height: 89vh;
+  font-size: 62.5%;
+}
+.space-icons {
+  margin-right: 5px;
+}
+.side-bar-links {
+  height: 70vh;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.3em 0;
+  color: #666666;
+}
+.side-bar-links ul:first-child {
+  height: 50vh;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.side-bar-links ul:last-child {
+  font-size: 1rem;
+}
+.side-bar-links ul li {
+  padding: 0.8em 0;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.side-bar-links li:hover {
+  background-color: #e8f4e3;
+}
+.side-bar-profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: black;
+  margin-right: 0.5em;
+}
+.side-bar-profile-detail {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.active {
+  background-color: #e8f4e3;
+}
